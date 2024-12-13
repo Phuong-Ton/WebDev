@@ -1,0 +1,30 @@
+1. List elements
+ + unordered list: 
+ <ul>
+	<li>milk</li>
+	<li>water</li>
+ </ul>
+ + ordered list: -> give you the number
+ <ol>
+	<li>milk</li>
+	<li>water</li>
+ </ol> 
+ 
+2.nesting and indentation
+Nested list: in 1 list element, after the text, we embed unordered list or ordered list (List in List)
+Indentation: for easy to read. Visually when you reading code. 
+
+3. Anchor elements: to create hyperlink
+<a href="">Text</a>
+-> addtional information:HTML attributes
+<tag attributeName1=Value1 attributeName1=Value1><tag/>
+Globale attribute can use any: all element can apply, such as: draggable=true
+href="": where this anchor element should link to
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+4. Image elements
+<img src="url" /> -> self closing tab -> void elements
+src stands for Source
+alt stands for Alternative Text Description
+
+5. Build a habit - Code - Keep going - Get the result

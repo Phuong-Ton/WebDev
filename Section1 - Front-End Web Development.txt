@@ -1,0 +1,8 @@
+Topic/Title: Front-End Web Development
+Summary:
+- How the internet work
+- How the website work (HTML + CSS + JS)
+- When you get stuck: What did you expect?
+                      What did happen to make you get stuck?
+                      Screen shot / Debug log
+ 
