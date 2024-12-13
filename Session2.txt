@@ -10,4 +10,4 @@ The more you practice, the more fluent and comfortable you’ll become.
 5. void elements: are forbidden from putting any content inside angel bracket, tag itself, forward slash at the end:
    <hr /> :  horizontal rule elements
    <br />: break elements -> when html document is rendered, this is what you will see
-   
+   can using <hr> <br> instead
