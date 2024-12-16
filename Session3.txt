@@ -1,0 +1,26 @@
+1. Absolute and Relative path
+Absolute file path: from the root
+Relative path from the index.html file (start point)
+special characters
+../ : go up a level
+./ : current directory  dot slash
+2. Multi-Page website
+
+<a href="./public/about.html"><img src="./assets/images/cat.png" alt="cat" /></a>
+
+
+3. HTML boilerplate: structure of HTML
+
+Top
+<!DOCTYPE html> : tell the browser which version of HTML 
+<html lang="en"> : root of the document, attribute lang: specific What language that the reader use
+	<head> : not to display for user. It includes things that will help  website render in browser correctly
+		<meta charset="UTF-8"> : set endcoding of the webpage
+		<title>My Website</title>: Title display in tag
+	
+	</head>
+	<body> : content of website
+		<h1>Hello world!</h1>
+	</body>
+
+</html>
