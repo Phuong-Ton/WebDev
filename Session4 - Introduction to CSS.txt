@@ -1,1 +1,28 @@
-Se
+CSS - Cascading Style Sheets
+Specify how thing should look on website
+How to add CSS
+1. Inline
+<html style="background: blue"></htm>
+style attribute is add to target tag-
+
+Apply to single element: testing or one element apply this styte
+
+2. Internal between <head></head> : Selecter, target many elements you want
+<style>
+	html{
+	background:red;
+	}
+</style>
+Apply only 1 html file
+3. External between <head></head> : separate file style.css
+style.css
+html{
+background:green;
+}
+Inside section head
+<head>
+	<link
+		rel="stylesheet"          -> relationship
+		href="./style.css"        -> location 
+	/>
+</head>
