@@ -10,3 +10,8 @@ border actually goes outwards rather than inwards -> height and width not change
 border-top: 0px;
 border-width: 0px 5px 10px 15px;
               top right bottom left : it goes in a clockwise direction  
+			  0px 5px
+			  top and bottom left and right
+padding: add a padding property 20px to this element, then it would push border out 20px
+margin: the box outside the border
+ 
