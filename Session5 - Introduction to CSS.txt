@@ -26,3 +26,39 @@ Inside section head
 		href="./style.css"        -> location 
 	/>
 </head>
+
+CSS Selecter
+
+<p class="targetclass"> Test string</p>
+<p id="targetid"> Test string</p>
+<p draggable="true"> Test string </p>
+<p draggable="false"> Test string </p>
+
+TAG SELECTOR
+p {
+  color: red;
+}
+
+CLASS SELECTOR
+.targetclass {
+  color: blue;
+}
+
+ID SELECTOR
+#targetid {
+  color: green;
+}
+
+TAG ATTRIBUTE SELECTOR
+p[draggable] {
+  color: yellow;
+}
+
+li[draggable="true"] {
+  color: blue;
+}
+
+UNIVERSAL SELECTOR
+* {
+  color: pink;
+}

@@ -1,0 +1,8 @@
+1. Color properties
+background-color: red
+color:red 
+
+https://colorhunt.co/
+use hex code instead of the name
+
+2. Font properties
