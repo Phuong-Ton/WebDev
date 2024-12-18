@@ -1,0 +1,12 @@
+Ctrl + Shift + I
+margin padding and border
+width and height
+
+border: 3 value separate by space 10px style color;
+
+border:10px solid black;
+
+border actually goes outwards rather than inwards -> height and width not change
+border-top: 0px;
+border-width: 0px 5px 10px 15px;
+              top right bottom left : it goes in a clockwise direction  
