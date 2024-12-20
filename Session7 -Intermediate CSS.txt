@@ -1,0 +1,34 @@
+External > Internal > Inline
+li {
+  color: red 1
+  color:blue 2 --------->position lower down
+ }
+
+
+li {
+  color: red 1
+  color:blue 2
+ }
+li {
+  color: green  3--------->position lower down
+}
+
+
+< li id="id" class="class" draggable>
+
+
+li {
+  color: blue;
+}
+.class {
+  color: red;
+}
+li[draggable] {
+color: green;
+}
+#id {
+  color: orange
+}
+
+
+
