@@ -1,34 +1,91 @@
-External > Internal > Inline
+
 li {
-  color: red 1
-  color:blue 2 --------->position lower down
+  color: red   1
+  color:blue    2 --------->position lower down
  }
 
 
 li {
-  color: red 1
-  color:blue 2
+  color: red    1
+  color:blue    2
  }
 li {
   color: green  3--------->position lower down
 }
 
-
+Specific
 < li id="id" class="class" draggable>
 
 
-li {
+li {                   1 less specific, a lot of element li
   color: blue;
 }
-.class {
+.class {               2 can apply with most of element
   color: red;
 }
-li[draggable] {
+li[draggable] {        3
 color: green;
 }
-#id {
+#id {                  4 most specific, only one element
   color: orange
 }
 
+
+--------------------
+Type
+External > Internal > Inline
+<link rel="stylesheet" href="./style.css">   1
+<style>
+
+</style>                              2
+<h1 style="color:red;"></h1>                           3
+
+
+------------------
+!important
+
+
+1 element can apply more than 2 class
+
+2. Combine selector
+<div class="my class">
+  <p> paragraph1 </p>
+</div>
+
+.my_class p {
+  color: white;
+  
+  
+Group rule
+selector, selector {
+  color: white;
+}
+apply to both selectors  
+
+Child
+selector > selector {
+  color: white;
+}
+
+> right angel bracket (>) in order to select a child of another selector
+
+parent > child : apply to direct child 
+
+
+Descendant 
+selector selector {
+  color: white;
+}
+
+Apply to a descentent of left side
+
+
+chaining 
+selectorselector {
+  color: white;
+}
+Apply where ALL selector are true
+
+ancester descendant chainging 	
 
 
