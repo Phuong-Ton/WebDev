@@ -89,3 +89,21 @@ Apply where ALL selector are true
 ancester descendant chainging 	
 
 
+Position
++ Static: Default: do not change position
++ Relative: position relative to default position
++ Absolute: position relative to nearest positioned ancester or TOP LEFT CORNER of Webpage
++ Fixed: Position relative to the top left corner of BROWER : NO SCROLL UP AND DOWN
+
+
+Z-Index: determine which element will sit on top
+z-index = -1
+
+border-radious: 50%; -> Circle
+
+
+ 
+
+
+
+

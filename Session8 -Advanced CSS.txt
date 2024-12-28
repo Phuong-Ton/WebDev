@@ -1,0 +1,23 @@
+1.CSS - Display
+<span> middle element </span>
+
+inline: Display same line, can not set width and height
+block: 
+inline-block: block allow to set height and width, inline element go in the same line+
+none: element disappear
+
+2.CSS -Float property
+
+Wrap text around Image
+
+3. Responsive
+Change depend on the size of screen
+Media queries:
+@media (max-width:600px){
+/* CSS for screen below or equal 600px */
+}
+
+CSS Grid
+CSS Flexbox
+External Framework bootstrap
+

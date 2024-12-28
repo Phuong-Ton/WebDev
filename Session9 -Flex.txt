@@ -1,0 +1,85 @@
+1. Display flex
+<style>
+p {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+li {
+  list-style: none; -> remove *
+}
+
+.container {
+  padding: 10px;
+  background-color: gold;
+  display: flex;
+  gap: 10px;
+}
+</style>
+
+<div class="container">
+    <p>Page Layout Methods</p>
+    <li><a href="./html-table.html">HTML Table</a></li>
+    <li><a href="./inline-block.html">Inline-Block</li>
+    <li><a href="./absolute-position.html">Absolute Positioning</li>
+    <li><a href="./float.html">Float</li>
+    <li><a href="./flex.html">Flexbox</li>
+</div>
+
+
+Flex Direction:
+how to modify a flexbox
+Top to buttom
+
+2. flex-direction: row (default)    main axis: left to right
+                column                    : top to bottom
+
+flex-basis: 100px -> change width
+                     change height
+
+height: increase 100 px
+
+  <style>
+    .container {
+      color: white;
+      border: 5px solid gold;
+      display: flex;
+      /* gap: 10px; */
+      flex-direction: column; -> parent
+      
+    }
+    .container div {          -> .container * {}
+      flex-basis: 100px;      -> child
+    }
+3. Flex layout - Align, Justify and Wrap
+childs/ items
+order: 0; -> default order of div
+picking out the items
+flex-wrap: nowrap; -> default behavior
+push off the page
+flex-wrap: wrap; -> out of size of container
+
+parent setting property 
+justify-content: flex-start;
+                 flex-end;
+				 flex-center;
+				 space-between;
+height: 70vh;
+align-items: flex-start;
+             flex-end;
+			 flex-center;
+			 flex-baseline;
+			 flex-stretch
+			 
+items/ childs : using align-seft: flex-start
+
+
+
+if setting flex-wrap: wrap -> align-content setting will be apply.
+
+
+
+
+				
+				
