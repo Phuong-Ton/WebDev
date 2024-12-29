@@ -28,6 +28,42 @@ li {
 </div>
 
 
+---------------------------------------------------------------------
+other example
+---------------------------------------------------------------------
+  <style>
+    .flex-container {
+      display: flex;
+    }
+    .card {
+      background: blue;
+      border: 30px solid white;
+      height: 100px;
+      flex: 1;
+    }
+    .first {
+      flex: 3;
+    }
+
+    .second {
+      flex: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <div class="flex-container">
+    <div class="first card"></div>
+    <div class="second card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+
+
+
+
 Flex Direction:
 how to modify a flexbox
 Top to buttom
@@ -53,6 +89,8 @@ height: increase 100 px
       flex-basis: 100px;      -> child
     }
 3. Flex layout - Align, Justify and Wrap
+https://appbrewery.github.io/flex-layout/
+
 childs/ items
 order: 0; -> default order of div
 picking out the items
@@ -73,10 +111,43 @@ align-items: flex-start;
 			 flex-stretch
 			 
 items/ childs : using align-seft: flex-start
-
-
-
 if setting flex-wrap: wrap -> align-content setting will be apply.
+
+4. Flex sizing
+Content width < Width < flex-basis < min-width/max-width
+                height(for column)
+
+<----> -> content width				
+Shrink until reach the minimum content width
+Grow
+
+
+flex-grow: 0;
+flex-shrink: 0;
+=> Same size + no change
+
+
+flex-grow: 1;
+flex-shrink: 0;
+Size of the item will grow until it can fill up all of the space (increase the width of each of these itemsas)
+
+
+flex-grow: 0;
+flex-shrink: 1; ---> Default of flex box
+
+
+
+flex-grow:1
+flex-shrink:1 
+
+
+
+Flex: 1 1 0
+   grow shrink basis
+
+= flex: 1;
+
+
 
 
 

@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phuong Ton's Resume</title>
+    <style>
+        h1,h2,h3,li {
+            padding-bottom: 5px;
+            margin-bottom: 0px;
+        }
+        p {
+            padding: 5px;
+            margin: 0px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap:15px
+        }
+        .skill {
+            font-weight: bold;
+        }
+        @media (max-width:800px){
+        /* CSS for screen below or equal 600px */
+            .container {
+                flex-direction: column;
+                height: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>PHUONG TON</h1>
     <hr />
-    <p>Everett, WA
-        <br />(206)-458-3410
-        <br />phuongtonthat@gmail.com
-        <br />www.linkedin.com/in/phuong-ton-that
-    </p>
+    <div class="container">
+        <div>Everett, WA</div>
+        <div>(206)-458-3410</div>
+        <div>phuongtonthat@gmail.com</div>
+        <div>www.linkedin.com/in/phuong-ton-that</div>
+    </div>
     <h2>SUMMARY</h2>
     <hr />
     <p>Software Developer with 5 years of experience. Seeking to leverage my experience in high-quality products, services, and processes. Driven by writing codes that focus on software quality and reliability, always thinking big to take on new challenges and opportunities.</p>
@@ -29,7 +55,7 @@
     <h2>TOP SKILLS</h2>
     <hr />
     <ul>
-        <li>Programing Language: Python, C, C#, Java, Visual Basic for Application</li>
+        <li><span class="skills">Programing Language:</span> Python, C, C#, Java, Visual Basic for Application</li>
         <li>Technical Skills: Agile methodologies, GIT, data structures and algorithms</li>
         <li>Cloud Computing: AWS EC2, IAM, S3, SNS, CloudWatch, Lambda, Azure AD, Azure AD Connect</li>
         <li>Scripting: Python, Window Bat, PowerShell, Linux Shell, VBS</li>
