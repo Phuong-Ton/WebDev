@@ -1,0 +1,57 @@
+Flex: on dimensional line alignment - horizontal 
+Grid: content - 2 dimensional - 2D
+
+Can mix between grid and flexbox
+Difference is behavior
+Example 
+.container {
+      display: grid;
+      width: 800px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: none;
+    }
+    .white {
+      width: 100px;
+      height: 100px;
+      background-color: #f0d9b5 ;
+    }
+    .black {
+      width: 100px;
+      height: 100px;
+      background-color: #b58863 ;
+    }
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+Grid size
+1 - Can fix size of column and rows 
+.container {
+      display: grid;
+      width: 800px;
+      grid-template-rows: 100px 200px;
+      grid-template-columns: 400px 800px ;
+    }
+grid-template 100px 200px / 400px 800px
+grid-template  rows / columns
+
+2 - auto size
+3 - minmax(400px,800px)
+4 - fraction ratio (1fr 2fr)
+repeat (2,200px) = 200px 200px
+
+
+
+
+display: grid;
+grid-template-columns: auto 400px minmax(200px, 500px);
+grid-template-rows: 1fr 1fr 2fr;
+grid-auto-rows: 50px;
+
+
+
